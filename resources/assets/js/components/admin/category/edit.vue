@@ -17,7 +17,7 @@
 				</div>
 				<div class="form-group pull-right">
 					<button class="btn btn-primary" v-bind:class="{'disabled':submitButton.loading}" type="submit">{{ submitButton.message }}</button>
-					<span class="btn btn-default" v-on:click="back()">Atras</span>
+					<span class="btn btn-default" v-on:click="back()">Atrás</span>
 				</div>
 			</div>			
 		</form>
